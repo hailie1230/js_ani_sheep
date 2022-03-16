@@ -17,7 +17,7 @@ export default class Sheep {
     this.speed = Math.random() * 2 + 1;
 
     this.fps = 24;
-    this.fpsTime = 1000/ this.fps;
+    this.fpsTime = 500/ this.fps;
   }
   draw(ctx, t, dots){
     if(!this.time){
